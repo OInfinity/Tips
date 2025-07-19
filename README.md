@@ -24,6 +24,19 @@ Methods
 | **`8.8.8.8`**                               | To test if your PC can reach the **internet directly by IP**, bypassing DNS. If this fails but the Default Gateway ping works, your internet connection is down beyond the router.                      |
 | **`google.com`**                            | To test both **DNS resolution** and internet connectivity. If `8.8.8.8` works but this fails, you have a DNS problem (your PC cannot resolve domain names).                                             |
 
+###  Other common combinations:
+✅ 127.0.0.1 ✅ Gateway ❌ 8.8.8.8 ❌ google.com
+
+Local network OK, but internet is down.
+
+✅ 127.0.0.1 ✅ Gateway ✅ 8.8.8.8 ❌ google.com
+
+DNS issue — internet is reachable via IP but names can't be resolved.
+
+✅ 127.0.0.1 ❌ Gateway ❌ 8.8.8.8 ❌ google.com
+
+PC’s network stack is working, but not connected to router — check Wi-Fi or cable.
+
 ### Summary:
 - 127.0.0.1: Is your PC’s network software okay?
 
