@@ -26,7 +26,6 @@ Methods
 
 ###  Other common combinations:
 ✅ 127.0.0.1 ✅ Gateway ❌ 8.8.8.8 ❌ google.com
-
 Local network OK, but internet is down.
 
 ✅ 127.0.0.1 ✅ Gateway ✅ 8.8.8.8 ❌ google.com
