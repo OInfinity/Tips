@@ -23,3 +23,12 @@ Methods
 | **`Default Gateway` (e.g., `192.168.1.1`)** | To check if your PC can reach the **local router or gateway** — confirms that your device is connected to the local network. If this fails, you likely have a cable/Wi-Fi or router connection problem. |
 | **`8.8.8.8`**                               | To test if your PC can reach the **internet directly by IP**, bypassing DNS. If this fails but the Default Gateway ping works, your internet connection is down beyond the router.                      |
 | **`google.com`**                            | To test both **DNS resolution** and internet connectivity. If `8.8.8.8` works but this fails, you have a DNS problem (your PC cannot resolve domain names).                                             |
+
+### Summary:
+- 127.0.0.1: Is your PC’s network software okay?
+
+- Default Gateway: Can your PC talk to the router?
+
+- 8.8.8.8: Can your PC access the internet (IP level)?
+
+- google.com: Can your PC resolve domain names and access the internet?
