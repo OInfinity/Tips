@@ -7,7 +7,7 @@ Methods
 ### POV :
 `Do that first, so that you can have an idea of your next move during your lab/practice.`
 - You might not have any idea of what you are watching, listening to, or reading, and now you can be proud of yourself. That means your mind is expanding, and that is the whole point.
-### Know by heart
+### Know this by heart
 
 | Address           | Purpose                       | Notes                                                                     |
 | ----------------- | ----------------------------- | ------------------------------------------------------------------------- |
